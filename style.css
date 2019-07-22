@@ -1,0 +1,60 @@
+/* index.html */
+
+* {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgb(78, 98, 89), rgb(44, 63, 73));
+    background-repeat: no-repeat;
+    padding: 5em;
+    ;
+}
+
+#levelsButtons {
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 1em;
+}
+
+#levelsButtons button {
+    background-color: green;
+    padding: 1em;
+    
+    border: 2px solid black;
+    margin: .8em;
+    border-radius: .5em;
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    outline:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* easy.html */
+
+input {
+    height: 30px;
+    padding: .5em;
+    margin: .5em;
+    border: none;
+    border-radius: .5em;
+}
+
+button {
+    height: 30px;
+    /* padding: 2em; */
+    margin: .5em;
+    border: none;
+    border-radius: .5em;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js"></script>
+</head>
+
+<body>
+    <div>
+
+        <h1>GUESS THE NUMBER</h1>
+        <h2>Choose Levels</h2>
+        <div id="levelsButtons">
+
+            <button href="#easy" onclick="easyLevel()">Easy</button>
+            <button href="#medium" onclick="mediumLevel()">medium</button>
+            <button href="#hard" onclick="hardLevel()">hard</button>
+            <div id="easy" style="display:none">
+                <div class="main">
+
+                    <h1>GUESS THE NUMBER</h1>
+                    <h2>Easy Level</h2>
+                    <p>you can guess between 0 to 100</p>
+                </div>
+                <div>
+
+                    <div>
+                        <input type="number" name="" id="level1" placeholder="enter any number">
+                    </div>
+                    <div>
+                        <button onclick="guessTheNumber(this)" id="1">Guess The Number</button>
+                    </div>
+                </div>
+            </div>
+            <div id="medium"style="display:none">
+                <div class="main">
+
+                    <div>
+
+                        <h1>GUESS THE NUMBER</h1>
+                        <h2>Medium Level</h2>
+                        <p>you can guess between 0 to 1000</p>
+                    </div>
+                    <div>
+
+                        <div>
+                            <input type="number" name="" id="level2" placeholder="enter any number">
+                        </div>
+                        <div>
+                            <button onclick="guessTheNumber(this)" id="2">Guess The Number</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="hard"style="display:none" >
+                <div class="main">
+
+                    <div>
+
+                        <h1>GUESS THE NUMBER</h1>
+                        <h2>Hard Level</h2>
+                        <p>you can guess between 0 to 10000</p>
+                    </div>
+                    <div>
+
+                        <div>
+                            <input type="number" name="" id="level3" placeholder="enter any number">
+                        </div>
+
+                        <div>
+                            <button onclick="guessTheNumber(this)" id="3">Guess The Number</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <footer>
+        <h4>All Rights Reserved</h4>
+    </footer>
+
+
+</body>
+
+</html>
